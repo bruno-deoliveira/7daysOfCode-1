@@ -1,0 +1,64 @@
+.depoimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgba(142, 36, 36, 0.05);
+    border-radius: 1rem;
+    margin: 2rem 8rem;   
+    padding: 3rem 2rem;
+    max-width: 100%;
+}
+
+.depoimento__titulo{
+    color: var(--text-one);
+    font-weight: 600;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.depoimento__texto{
+    color: var(--text-five);
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.depoimento__imagem {
+    width: 100px;
+}
+
+.depoimento__descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depoimento__nome{
+    margin: .5rem 0;
+    color: var(--text-five) ;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.depoimento__setor{
+    color: var(--text-two);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 850px) {
+.depoimento__titulo {
+    max-width: 100%;
+    font-size: 100%;
+    text-align: center;
+}
+.depoimento{
+    max-width: 100%;
+    margin: 2rem 1rem;   
+}
+
+.depoimento__texto{
+    font-size: 1rem ;
+}
+}

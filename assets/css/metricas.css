@@ -1,0 +1,62 @@
+.metrica {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    padding: 0 8rem;
+}
+
+.metricas {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.metrica__numeros{
+    color: var(--text-one);
+    font-size: 3rem;
+}
+
+.metrica__texto {
+    color: var(--text-five);
+    line-height: 140%;
+    font-size: 90%;
+}
+
+.metricas .metrica-titulo {
+    font-weight: 500;
+    color: #101828;
+}
+
+@media screen and (max-width: 920px) {
+    .metrica {
+    padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .metrica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .metricas {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    }
+
+    .metrica__texto {
+    max-width: 280px;
+    text-align: center;
+    }
+
+    .metrica__titulo{
+    text-align: center;
+    font-weight: 500;
+    }
+}
+
+
+
+

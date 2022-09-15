@@ -1,0 +1,43 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.sobre__titulo {
+    font-size: 1rem;
+    color: var(--text-one);
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sobre__subtitulo {
+    font-size: 2.5rem;
+    color: var(--text-five);
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.paragrafo {
+    text-align: center;
+    padding: 0 26%;
+    color: var(--text-two);
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 515px){
+    .sobre__subtitulo{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .paragrafo {
+        padding: 0 1rem;
+        max-width: 70%
+
+    }
+
+
+}

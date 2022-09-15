@@ -1,0 +1,42 @@
+.vagass{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    
+}
+
+.vagass__titulo{
+    margin: 3rem 0 2rem 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.vagass__descricao{
+    border: 1px solid #EAECF0;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 35%;
+}
+
+.vagass__ocupacao{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.vagass__informacao {
+    font-size: 1rem;
+    color: var(--text-two);
+    display: flex;
+    gap: 2rem
+}
+
+@media screen and (max-width: 850px){
+    .vagass__descricao{
+        width: 100%;
+        align-self: center;
+}  
+}
+
+

@@ -1,0 +1,38 @@
+.vagas {
+    text-align: center;
+    margin: 4rem 0 0 0;
+}
+
+.vagas__descricao{
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 1rem;
+    color: var(--text-one);
+    padding: 0.8rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.vagas__titulo{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.vagas__texto{
+    font-size: 1.2rem;
+    color: var(--text-two);
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.vagas__imagem{
+    width: 70vw;
+    height: 100%;
+}
+
+@media screen and (max-width: 850px){
+.vagas__imagem{
+    width: 90vw;
+}
+}
+

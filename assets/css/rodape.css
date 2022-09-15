@@ -1,0 +1,32 @@
+.rodape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F9FAFB;
+  padding: 2rem 1rem;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.rodape__titulo{
+  color: var(--title-color);
+}
+
+.rodape__texto {
+  color: var(--text-color);
+}
+
+.rodape__email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodape__emails {
+  outline: none;
+  border: 1px solid #D0D5DD;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  width: 12rem;
+  margin-right: 1rem;
+}
